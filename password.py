@@ -1,4 +1,4 @@
-"""import string
+import string
 import random
 
 # Getting password length
@@ -45,7 +45,7 @@ for i in range(length):
     password.append(randomchar)
 
 # printing password as a string
-print("The random password is " + "".join(password))"""
+print("The random password is " + "".join(password))
 
  
   
