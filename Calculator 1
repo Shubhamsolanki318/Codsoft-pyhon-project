@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+
+  <!-- 💅 Internal CSS Style -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px 0;
+    }
+
+    header {
+      background-color: #282c34;
+      color: white;
+      text-align: center;
+      padding: 40px 0;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    #about {
+      text-align: center;
+      padding: 40px 0;
+    }
+
+    .profile-pic {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    #skills {
+      background-color: #eef2f3;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    .skills-list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .skills-list li {
+      background-color: #fff;
+      margin: 10px;
+      padding: 12px 20px;
+      border-radius: 20px;
+      border: 1px solid #ccc;
+    }
+
+    #projects {
+      padding: 40px 0;
+    }
+
+    .project {
+      background-color: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    .project img {
+      max-width: 100%;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    #resume {
+      background-color: #eef2f3;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    .btn {
+      background-color: #333;
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    #contact {
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #282c34;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1>John Doe</h1>
+      <p>Web Developer | Front-End Enthusiast</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <img src="https://via.placeholder.com/180" alt="My Photo" class="profile-pic" />
+      <p>Hello! I'm John, a passionate front-end developer experienced in building responsive websites with HTML, CSS, and JavaScript.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <img src="https://via.placeholder.com/300x200" alt="Project 1" />
+        <h3>Portfolio Website</h3>
+        <p>A sleek personal portfolio to showcase my skills and projects.</p>
+      </div>
+      <div class="project">
+        <img src="https://via.placeholder.com/300x200" alt="Project 2" />
+        <h3>To-Do App</h3>
+        <p>A user-friendly to-do list built using vanilla JavaScript.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume">
+    <div class="container">
+      <h2>Resume</h2>
+      <a href="resume.pdf" download class="btn">Download My Resume (PDF)</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: john.doe@example.com</p>
+      <p>Phone: +1 234 567 8901</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 John Doe. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
